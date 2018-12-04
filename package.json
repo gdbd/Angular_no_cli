@@ -1,0 +1,38 @@
+{
+  "name": "angular-no-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build":"webpack",
+    "serve":"http-server"
+  },
+  "dependencies": {
+    "@angular/animations": "~7.0.0",
+    "@angular/common": "~7.0.0",
+    "@angular/compiler": "~7.0.0",
+    "@angular/core": "~7.0.0",
+    "@angular/forms": "~7.0.0",
+    "@angular/http": "~7.0.0",
+    "@angular/platform-browser": "~7.0.0",
+    "@angular/platform-browser-dynamic": "~7.0.0",
+    "@angular/router": "~7.0.0",
+
+    "rxjs": "~6.3.3",
+    "rxjs-compat": "6.3.3",
+    "core-js": "2.5.7",
+    "zone.js": "~0.8.26"
+
+  },
+  "devDependencies": {
+    "typescript": "^3.1.6",
+    "awesome-typescript-loader":"5.2.1",
+    "webpack": "4.24.0",
+    "webpack-cli": "3.1.2",
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "1.7.0",
+    "source-map-loader": "0.2.4",
+    "http-server": "0.11.1"
+  }
+}
